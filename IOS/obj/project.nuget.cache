@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xREbLMQej7LdCz6LVPZDcN1VrT4Tmj4zaZ0q60ky+zVs3d/ZFz/vhi2mB+F/Q9Yz71ai/9ZiodxD0oHUFJ2jaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\j.morley\\source\\repos\\XmlReaderPerformance\\IOS\\IOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\j.morley\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

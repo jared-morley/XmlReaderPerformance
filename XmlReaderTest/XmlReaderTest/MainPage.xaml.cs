@@ -11,18 +11,16 @@ public partial class MainPage : ContentPage
         InitializeComponent();
     }
 
-    private async void Load(object sender, EventArgs e)
-    {
-        using (Stream fileStream = await FileSystem.Current.OpenAppPackageFileAsync("Test.xml"))
-        {
-            _ms = new MemoryStream();
-            fileStream.CopyTo(_ms);
-        }
-        await DisplayAlert("loaded", "ready to test", "OK");
-    }
-
     private async void TestReader(object sender, EventArgs e)
     {
+        if (_ms == null)
+        {
+            using (Stream fileStream = await FileSystem.Current.OpenAppPackageFileAsync("Test.xml"))
+            {
+                _ms = new MemoryStream();
+                fileStream.CopyTo(_ms);
+            }
+        }
         _ms.Position = 0;
         var sw = Stopwatch.StartNew();
 
@@ -30,7 +28,10 @@ public partial class MainPage : ContentPage
         {
             reader.MoveToContent();
 
-            reader.Skip();
+            while (reader.Read())
+            {
+                //hi
+            }
         }
         sw.Stop();
         await DisplayAlert("time", "read took " + sw.ElapsedMilliseconds, "OK");

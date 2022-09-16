@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "UZmNdUo8yhcLhwuV73Kb/j67MKtIRRxjxhoNJ9x2DrChGUa/Oo+08qrL7PRDiQD1FBZijbqwVfyHy1U9wdNgqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\j.morley\\source\\repos\\XmlReaderPerformance\\XF\\XmlReaderTestXamarinForms\\XmlReaderTestXamarinForms\\XmlReaderTestXamarinForms.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\j.morley\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\j.morley\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\j.morley\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\j.morley\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\j.morley\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

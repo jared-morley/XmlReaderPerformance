@@ -15,11 +15,6 @@
                 HeightRequest="200"
                 HorizontalOptions="Center" />
             <Button
-                x:Name="LoadButton"
-                Text="Load"
-                Clicked="Load"
-                HorizontalOptions="Center" />
-            <Button
                 x:Name="TestXmlReaderButton"
                 Text="Test"
                 Clicked="TestReader"
